@@ -66,7 +66,7 @@ export const fetchFeature = () => {
             headers: { authorization: localStorage.getItem('token') }
         })
         .then(response =>{
-            dispatch({ 
+            dispatch({
                 type: FETCH_FEATURE,
                 payload: response.data
              });
