@@ -22,6 +22,11 @@ yarn build
 
 ### Server
 
+# Installation
+```
+yarn install
+```
+
 ## Run
 with node
 ```
