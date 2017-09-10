@@ -1,33 +1,33 @@
 ### React-Redux JWT Authentication Boilerplate
 
-### Client
-# Installation
+# Client
+### Installation
 ```
 yarn install
 ```
 
-# Development
+### Development
 ```
 yarn start
 ```
 
-# Production
+### Production
 
 First build the project:
 
-## Build
+### Build
 ```
 yarn build
 ```
 
-### Server
+# Server
 
-# Installation
+### Installation
 ```
 yarn install
 ```
 
-## Run
+### Run
 with node
 ```
 node server/
