@@ -13,19 +13,12 @@ yarn start
 
 ### Production
 
-First build the project:
-
-### Build
+First build the project, then run the server.
 ```
 yarn build
 ```
 
 # Server
-
-### Installation
-```
-yarn install
-```
 
 ### Run
 with node
