@@ -21,7 +21,7 @@ class Feature extends PureComponent {
 
         return (
             <div>
-                <div>Feature</div>
+                <h4>Feature</h4><small>You must be logged in to see the features</small>
                 <ul>
                     {this.renderFeature()}
                 </ul>

@@ -3,12 +3,13 @@ import Header from './header'
 class App extends Component {
   render() {
     return (
-      <div className="container">
+      <div>
         <Header />
-        <br />
-        <div className="row">
-          <div className="col-md-12">
-            {this.props.children}
+        <div className="container" style={{ marginTop: '50px' }}>
+          <div className="row">
+            <div className="col-md-12">
+              {this.props.children}
+            </div>
           </div>
         </div>
       </div>

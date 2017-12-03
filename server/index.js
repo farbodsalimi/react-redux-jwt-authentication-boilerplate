@@ -14,7 +14,7 @@ mongoose.connect('mongodb://localhost:27017/auth', {
 });
 
 // app setup
-app.use(mporgan('combined'));
+app.use(mporgan('dev'));
 app.use(cors());
 app.use(boddyParser.json({type: '*/*'}));
 router(app);
